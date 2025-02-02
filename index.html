@@ -54,7 +54,7 @@
   </head>
   <body>
     <!-- Header section -->
-    <header class="lg:my-6 header font-sora">
+    <header class="lg:my-6 header font-sora lg:px-12">
       <!-- Navbar Section -->
       <nav
         class="flex justify-between items-center container mx-auto py-[14px] lg: border-b border-green-700/50 md:border-none"
@@ -106,9 +106,9 @@
       </section>
     </header>
     <!-- Main Section -->
-    <main class="container mx-auto">
+    <main class="">
       <!-- Services Section -->
-      <section class="my-24 px-4 space-y-8 lg:px-0">
+      <section class="my-24 px-4 space-y-8 lg:px-0 container mx-auto lg:px-12">
         <h1 class="text-2xl font-bold text-green-700">Services</h1>
         <!-- Card Container -->
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -162,6 +162,41 @@
                 eiusmod tempor incididunt
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- Popular Products Section -->
+      <section class="my-24 flex items-center bg-stone-100">
+        <!-- Products section -->
+        <div class="container mx-auto p-4 lg:px-12">
+          <!-- Popular products heading -->
+          <h3 class="text-green-700 text-2xl font-bold">Popular Products</h3>
+          <!-- Popular cards. the 2 main ones -->
+          <div class="flex flex-col lg:flex-row w-full">
+            <!-- Special Card -->
+            <div
+              class="h-[390px] bg-gradient-to-br from-green-600 to-green-50 mt-8 relative rounded-lg"
+            >
+              <div class="pl-8 pt-12 ">
+                <h2 class="text-3xl text-white">30% off</h2>
+                <p class="text-base mt-3 mb-3">
+                  Discover a world of treats, toys, and essentials handpicked
+                  for
+                </p>
+                <button
+                  class="bg-white py-2 px-6 rounded-lg text-[rgba(17, 17, 17, 1)]"
+                >
+                  Buy Now
+                </button>
+              </div>
+              <img
+                class="absolute top-[135px] left-28 md:top-[150px] md:left-64 md:w-[200px] md:h-[240px]"
+                src="./Images/vegetable-offer.png"
+                alt=""
+              />
+            </div>
+            <!-- Normal Cards Container -->
+             <div class="h-96 bg-black my-6"></div>
           </div>
         </div>
       </section>

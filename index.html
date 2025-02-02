@@ -57,7 +57,7 @@
     <header class="lg:my-6 header lg:px-12">
       <!-- Navbar Section -->
       <nav
-        class="flex justify-between items-center container mx-auto py-[14px] lg: border-b border-green-700/50 md:border-none"
+        class="flex justify-between items-center container mx-auto py-[14px] lg:px-0 px-[14px] border-b border-green-700/50 md:border-none"
       >
         <div>
           <img src="./Images/logo-header.png" alt="" class="hidden lg:block" />
@@ -68,13 +68,16 @@
           />
         </div>
         <div>
+          <i class="fa-solid fa-bars fa-2xl lg:hidden"></i>
           <ul class="hidden lg:flex gap-8">
             <li>Product</li>
             <li>Services</li>
             <li>Contact Us</li>
           </ul>
         </div>
-        <div class="flex gap-3 hidden lg:flex">
+        <div class="flex gap-3 hidden lg:flex lg:items-center">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+          <i class="fa-solid fa-cart-shopping fa-xl"></i>
           <button class="px-7 py-2 border border-green-700 rounded-lg">
             Login
           </button>
@@ -84,6 +87,9 @@
             Register
           </button>
         </div>
+        <!-- <div>
+          
+        </div> -->
       </nav>
       <!-- Banner section -->
       <section

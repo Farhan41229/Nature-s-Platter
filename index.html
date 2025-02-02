@@ -54,9 +54,11 @@
   </head>
   <body>
     <!-- Header section -->
-    <header class="lg:px-[140px] header">
+    <header class="lg:my-6 header font-sora">
       <!-- Navbar Section -->
-      <nav class="flex justify-between items-center">
+      <nav
+        class="flex justify-between items-center container mx-auto py-[14px] lg: border-b border-green-700/50 md:border-none"
+      >
         <div>
           <img src="./Images/logo-header.png" alt="" class="hidden lg:block" />
           <img
@@ -84,16 +86,85 @@
         </div>
       </nav>
       <!-- Banner section -->
-      <section class="flex flex-col gap-8 text-center lg:mt-24">
-        <h1 class="text-6xl">Freshness You Can <br> Count On, Prices You’ll Love!</h1>
-        <p>
+      <section
+        class="flex flex-col gap-8 text-center lg:mt-24 mt-12 container mx-auto"
+      >
+        <h1 class="text-3xl lg:text-6xl font-bold">
+          Freshness <span class="text-green-700">You Can</span> <br />
+          <span class="text-green-700">Count</span> On, Prices You’ll Love!
+        </h1>
+        <p class="w-[349px] mx-auto">
           Shop your daily essentials at unbeatable prices. From fresh produce to
-          pantry <br> staples, we’ve got you covered every day!
+          pantry <br />
+          staples, we’ve got you covered every day!
         </p>
-        <img src="./Images/hero-vegetables.png" alt="" />
+        <img
+          src="./Images/hero-vegetables.png"
+          alt=""
+          class="w-[1030px] mx-auto"
+        />
       </section>
     </header>
     <!-- Main Section -->
-     <main class="my-24 h-96"></main>
+    <main class="container mx-auto">
+      <!-- Services Section -->
+      <section class="my-24 px-4 space-y-8 lg:px-0">
+        <h1 class="text-2xl font-bold text-green-700">Services</h1>
+        <!-- Card Container -->
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <div
+            class="w-full h-[308.61px] bg-stone-100 flex flex-col justify-center items-center text-center gap-5 p-7"
+          >
+            <!-- Image Content -->
+            <div class="bg-white p-5 rounded-full">
+              <img src="./Images/service.png" alt="" />
+            </div>
+            <!-- Text Content -->
+            <div>
+              <h1 class="text-xl text-black font-bold">24/7 Services</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="w-full h-[308.61px] bg-stone-100 flex flex-col justify-center items-center text-center gap-5 p-7"
+          >
+            <!-- Image Content -->
+            <div class="bg-white p-5 rounded-full">
+              <img src="./Images/delivery.png" alt="" />
+            </div>
+            <!-- Text Content -->
+            <div>
+              <h1 class="text-xl text-black font-bold">24/7 Services</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="w-full h-[308.61px] bg-stone-100 flex flex-col justify-center items-center text-center gap-5 p-7"
+          >
+            <!-- Image Content -->
+            <div class="bg-white p-5 rounded-full">
+              <img src="./Images/healthy.png" alt="" />
+            </div>
+            <!-- Text Content -->
+            <div>
+              <h1 class="text-xl text-black font-bold">24/7 Services</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
